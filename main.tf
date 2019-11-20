@@ -18,5 +18,5 @@ resource "aws_s3_bucket" "cmp" {
   }
 }
 output "s3_bucket" {
-  value = "${aws_s3_bucket.cmp}"
+  value = "${aws_s3_bucket.cmp.bucket}"
 }
