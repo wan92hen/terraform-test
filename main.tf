@@ -1,8 +1,8 @@
 variable "ak" {
-  type = string
+  type = "string"
 }
 variable "sk" {
-  type = string
+  type = "string"
 }
 provider "aws" {
   region  = "cn-northwest-1"
